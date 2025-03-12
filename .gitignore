@@ -1,1 +1,8 @@
-*.env
+# Python
+__pycache__/
+*.py[cod]
+.env
+*.log
+*.csv
+*.pdf
+venv/
