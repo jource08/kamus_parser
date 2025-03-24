@@ -8,7 +8,7 @@ A Python tool to parse dictionary PDFs (Bahasa Indonesia ↔ Local Languages) in
 ---
 ## Installation
 ### Prerequisites
-1. Python 3.8+: Download Python https://www.python.org/downloads/
+1. Python 3.9+: Download Python https://www.python.org/downloads/
 2. Tesseract OCR: Install Tesseract https://github.com/tesseract-ocr/tesseract
 ### Steps
 1. Install dependencies `pip install -r requirements.txt`
@@ -32,6 +32,7 @@ kamus_parser/
 │   ├── pdf_to_csv.py        # PDF-to-CSV logic
 │   └── 📁 utils/
 │       ├── __init__.py
+│       └── logger.py        # Logger
 │       ├── ocr.py           # OCR functions
 │       └── parser.py        # Parsing logic
 ├── requirements.txt         # Python dependencies
