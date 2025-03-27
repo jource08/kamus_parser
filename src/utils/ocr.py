@@ -1,6 +1,10 @@
 from pdf2image import convert_from_path
 import pytesseract
 import pdfplumber
+from .logger import setup_logger  # Import the logger setup function
+
+# Initialize the logger
+logger = setup_logger()
 
 def extract_text(pdf_path, is_scanned=False):
     """Extract text from PDF (text-based or scanned)."""
